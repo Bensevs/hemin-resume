@@ -1,0 +1,27 @@
+{
+  "name": "hemin-resume",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "^6.x.x",
+    "material-design-icons-iconfont": "^6.x.x",
+    "naive-ui": "^2.42.0",
+    "vue": "^3.x.x",
+    "vuetify": "^3.x.x"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/tsconfig": "^0.7.0",
+    "gh-pages": "^6.3.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0",
+    "vite-plugin-pages": "^0.33.1",
+    "vue-tsc": "^2.2.10"
+  }
+}
